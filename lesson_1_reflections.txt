@@ -1,0 +1,58 @@
+ How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    it helped me understand the need for automating search and sort
+    facilities to help find errors in large files.
+    Using fc command to find the error made it really easy to do
+    the job and it took very little time.
+    
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    it would make checking syntax errors and debugging a program very easy.
+    if i wanted to experiment with a program, i could do that without fear of losing the serious data. 
+    it would also help to work faster with multiple people 
+    and easier for one person to correct another's mistakes.
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually saving/committing makes more sense when you reread your edits.
+    you can see the logic behind the edits and it is easier to correct transitional errors.
+    on the other hand, commits are user dependent so there is room for user errors.
+    if you forget to commit at regular intervals, the commits will make no sense.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because multiple files are interrelated.
+     using version control in the way google docs does would be tricky 
+     because finding different versions for multiple files can be difficult.
+   files in git are interrelated and it is sometimes necessary to find edits of multiple files at the same time.
+   this is why git makes repository of all files.  
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log displays all the commits made across the repository.
+    this helps us find a particular commit.
+    git diff takes us deeper into the commit and comapres two commits to find the changes.
+    we can find out the number of insertions and deletions using git diff.
+    we can also use the --stat flag to get a statistical layout
+    which tells us the number of insertions and deletions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    With version control, changes are reversible.
+    all previous versions are accessible so you feel more comfortable experimenting.
+    using git diff and git checkout, you can trace the source of the error and correct it.
+    this makes you less conscious while programming and makes your work smoother and faster.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+     im excited to use git for a variety of reasons.
+     primarily as a c++ programmer, it'll help me debug my code more efficiently and easily.
+     the workspace is organized by color, whch is nice and helps highlight the important stuff.
+     i also want to use git to access github and start develpoping apps for android.
+    
