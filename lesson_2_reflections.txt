@@ -28,6 +28,10 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+		the diagrams help to connect the various components of a repository
+		the branches get confusing when you think of them in a detatched way
+		to have them on paper is a big help as it keeps everything sorted.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
