@@ -32,4 +32,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    working directly on master makes the pull request process much easier
+    on the other hand, keeping separate branches makes sure your official/ main code remains relatively bug free and you dont have to keep rechecking for bugs
